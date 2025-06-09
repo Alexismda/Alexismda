@@ -2,9 +2,9 @@
 graph TD
     A[Achats - Anne-Sophie<br>1300/mois<br>≈60/jour] -->|60/jour| B[Tests Entrée Benoit Matin<br>60/jour<br>= 2 cartons]
     B -->|60/jour × 5 jours = 300/semaine| C[Réparations<br>250/semaine et potentiel 300<br>Testés, nettoyés]
-    C -->|50/jour| D[Tests Sortie Benoit Après Midi<br>60/jour<br>50 validés + 20% retours]
-    D -->|50/jour| E[Mise en Stock<br>50/jour<br>RAS]
-    E -->|Jusqu'à 50/jour| F[Expédition<br>50/jour<br>+2 réassorts/semaine]
+    C -->|60/jour| D[Tests Sortie Benoit Après Midi<br>60/jour<br>50 validés + 20% retours]
+    D -->|60/jour| E[Mise en Stock<br>60/jour<br>RAS]
+    E -->|Jusqu'à 60/jour| F[Expédition<br>60/jour<br>+2 réassorts/semaine]
     F -->|Retours| G[SAV<br>Traitement sous 3 jours<br>Courriers + partenaires]
     G -->|Retours à tester| B
     style A fill:#FF6B6B,stroke:#2C3E50,stroke-width:2px
