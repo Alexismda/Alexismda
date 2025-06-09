@@ -1,6 +1,6 @@
 ```mermaid
 graph TD
-    A[Achats<br>1000/mois<br>≈50/jour] -->|50/jour| B[Tests Entrée<br>50/jour<br>2 cartons]
+    A[Achats - Anne-Sophie<br>1300/mois<br>≈60/jour] -->|50/jour| B[Tests Entrée<br>50/jour<br>2 cartons]
     B -->|50/jour × 5 jours = 250/semaine| C[Réparations<br>250/semaine<br>Testés, nettoyés]
     C -->|50/jour| D[Tests Sortie<br>60/jour<br>50 validés + 20% retours]
     D -->|50/jour| E[Mise en Stock<br>50/jour<br>RAS]
